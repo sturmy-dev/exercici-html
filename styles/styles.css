@@ -1,0 +1,137 @@
+* {
+    /*box-sizing: content-box;*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14 px;
+    font-family: 'Mukta', sans-serif;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+/* centro tot excepte el header */
+section, article, nav, footer {
+    text-align: center;
+}
+
+/* la capçalera te una alçada fixa */
+header {
+    background-image: url("/images/candy-web-header.jpg");
+    height: 120px;
+    /*box-sizing: border-box;*/
+}
+
+/* el logo ha de deixar espai per esquerra i adalt i abaix*/
+.header-logo {
+    margin: 30px 30px;
+}
+
+/* mida imatges xarxes socials */
+nav img {
+    width: 40px;
+    background-color: white;
+}
+
+/* tots els elements de llista en una navegacio es mostren en linia */
+nav li {
+    display: inline;
+}
+
+/* navegacio del header per xarxes socials */
+.header-nav {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+/* totes les llistes de navegacio sense estil */
+nav ul {
+    list-style-type: none;
+}
+
+/* tots els links de navegacio sense decoracio */
+nav a {
+    text-decoration: none;
+}
+
+/* deixem un marge amb la capñalera i centrem verticalment els links de navegacio */
+.navigation-menu {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #dddddd;
+}
+
+/* deixem espai entre links */
+.navigation-menu li a{
+    padding: 10px 50px;
+}
+
+.navigation-menu a {
+    background-color: #dddddd;
+}
+
+.navigation-menu a:hover {
+    background-color: #111;
+    color: white;
+}
+
+/* deixem marge superior */
+section {
+    margin-top: 25px;
+}
+
+.section-highlight article {
+    width: 33%; /*325px;*/
+    height: 200px;
+    display: inline-block;
+    background-color: #ddd;
+}
+
+/* boto accedir dels articles */
+.section-highlight a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 0 10px;   
+}
+
+/* tamany imatges articles*/
+article img {
+    width: 40%;
+}
+
+article h2 {
+    font-size: 16px;
+}
+
+/* afegim scroll */
+.section-main {
+    height: 450px;
+    overflow: scroll;
+    background: #ddd;
+}
+
+/* boto accedir dels articles */
+.section-main a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 0 10px;   
+}
+
+/* acotem la seccio principal */
+.section-main article {
+    margin: 15px 0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* mesures del footer */
+footer {
+    margin-top: 25px;
+    background-color: grey;
+    padding: 21px 0;
+}
